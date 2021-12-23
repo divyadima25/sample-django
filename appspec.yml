@@ -2,13 +2,11 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html
+     destination: /home/ec2-user/django/django-app
 file_exists_behavior: OVERWRITE     
-permissions:
-   - object: /var/www/html
-     pattern: "**"
-     owner: root
-     group: root
-     mode: 755
-     type:
-       - file
+
+hooks:
+  BeforeInstall:
+      - location: scripts/before_install.sh
+  AfterInstall:
+      - location: scripts/after_install.sh
