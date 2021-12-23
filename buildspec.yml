@@ -5,7 +5,7 @@ phases:
     commands:
       - pip install -r requirements.txt
             
-  pre_build:
+  build:
     commands:
       - python manage.py django-test
   
